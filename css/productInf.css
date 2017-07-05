@@ -1,0 +1,166 @@
+body,
+html {
+  font-family: "微软雅黑";
+  background: #efefef;
+}
+input,
+select,
+button {
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+.orange {
+  background-color: #FFC831;
+}
+.dark_ora {
+  background-color: #FF9B1A;
+}
+#header {
+  width: 100%;
+  height: 48px;
+  background-color: #ff841d;
+  padding: 10px;
+  position: relative;
+}
+#header .left img {
+  height: 26px;
+}
+#header .right {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+}
+#header .right img {
+  height: 36px;
+}
+#select {
+  width: 100%;
+  height: 52px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 80px;
+  position: relative;
+  background: white;
+}
+#select .text {
+  width: 100%;
+  height: 28px;
+  border-radius: 20px;
+  border: 0;
+  text-indent: 20px;
+  background: #efefef;
+}
+#select .btn {
+  position: absolute;
+  background: #ff841d;
+  color: white;
+  border-radius: 20px;
+  height: 28px;
+  top: 10px;
+  right: 10px;
+  border: 0;
+  line-height: 16px;
+  outline: 0;
+}
+#product_title {
+  background: #EFEFEF;
+  position: relative;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+#product_title .breadcrumb {
+  margin-bottom: 0px;
+}
+#product_title .breadcrumb li:before {
+  content: "";
+  padding: 0;
+}
+#product_title .breadcrumb li:after {
+  content: ">";
+}
+#product_title .btn-default {
+  position: absolute;
+  top: 3px;
+  right: 10px;
+  height: 30px;
+  background: #E6E6E6;
+}
+#product_infor {
+  background-color: white;
+}
+#product_infor #product_name {
+  text-align: center;
+  font-size: 20px;
+  color: black;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+#product_infor .product_img {
+  text-align: center;
+}
+#product_infor .product_img img {
+  width: 160px;
+  height: 160px;
+}
+#product_infor .product_btn .row .col-xs-4 {
+  text-align: center;
+  line-height: 30px;
+  border: 1px solid #D7884D;
+}
+#product_infor .product_btn .row .col-xs-4 a {
+  color: white;
+}
+#product_price {
+  height: 40px;
+  background-color: white;
+  border-bottom: 1px solid #D3D3D3;
+}
+#product_price table {
+  line-height: 40px;
+}
+#commend {
+  background-color: white;
+  border-bottom: 1px solid #F8F8F8;
+}
+#commend .top {
+  text-align: center;
+  font-size: 16px;
+  background-color: #DBDBDB;
+  line-height: 30px;
+}
+#commend .message .m_top {
+  height: 48px;
+  padding: 8px;
+}
+#commend .message .m_top .user {
+  float: left;
+}
+#commend .message .m_top .source {
+  float: right;
+  text-align: right;
+}
+#commend .message .content {
+  padding: 8px;
+}
+#footer {
+  height: 100px;
+  text-align: center;
+}
+#footer .row > div {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-left: 0px;
+  text-align: center;
+}
+#footer .row > div:last-child img {
+  width: 15px;
+  vertical-align: top;
+}
+#product_title .breadcrumb .li_last:after {
+    content: "";
+}
+

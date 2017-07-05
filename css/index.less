@@ -1,0 +1,178 @@
+@import "base.less";
+// 头部
+#header{
+         width: 100%;
+         height: 48px;
+         background-color: #ff841d;
+         padding: 10px;
+         position: relative;
+     .left{
+         
+         img{
+             height: 26px;
+         }
+     }
+     .right{
+        position: absolute;
+        top:5px;
+        right:10px;
+         img{
+             height: 36px;
+         }
+     }
+}
+// 搜索栏
+#select{
+    width: 100%;
+    height: 52px;
+    padding-top:10px;
+    padding-left: 10px;
+    padding-right: 80px;
+    position: relative;
+    background: white;
+    .text{
+        width: 100%;
+        height: 28px;
+        border-radius: 20px;
+        border: 0;
+        text-indent: 20px;
+        background: #efefef;
+    }
+   .btn{
+       position: absolute;
+       background: #ff841d;
+       color: white;
+       border-radius: 20px;
+       height: 28px;
+       top:10px;
+       right:10px;
+       border:0;
+       line-height: 16px;
+       outline: 0;
+
+   }
+}
+// 导航栏
+#nav_list{
+    margin-top: 10px;
+    padding: 15px 0;
+    background: white;
+    text-align: center;
+    .row{
+        img{
+            height: 52px;
+        }
+        p{
+            margin-top: 5px;
+        }
+    }
+}
+// 超值折
+#discount{
+    width: 100%;
+    height: 35px;
+    margin-top: 10px;
+    padding: 8px;
+    background: #ff841d;
+    .left{
+      float: left;
+      color: white;
+      font-size: 16px;
+
+    }
+    .right{
+        img{
+           width: 20px;
+          height: 20px;
+        }
+      
+      float:right;
+    }
+}
+
+// 商品列表
+#product_list{
+    
+    background: white;
+    padding: 10px;
+    .media{
+     width: 100%;
+     border-bottom: 1px solid #e7e7e7;
+     border-right:1px solid #e7e7e7;
+     position: relative;
+     .media-heading{
+         span{
+             color: #ff9547;
+            
+             
+         }
+     }
+     .media-left img{
+         width: 100px;
+         height: 100px;
+     }
+     .media-body{
+        p{
+        margin-top:36px;
+        }
+      .bottom{
+                    position: absolute;
+                    right: 0px;
+                    bottom:14px;
+                    i{
+                      background: url("data:image/svg+xml;charset=utf-8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1024 1024' width='17'><path fill='#a1a1a1' d='M924.504962 664.898711 97.819886 664.898711c-17.557888 0-31.795147-14.241352-31.795147-31.795147l0-508.732583c0-17.557888 14.238282-31.792077 31.795147-31.792077l241.198387 0 149.664671-149.661601c6.209422-6.212492 14.34266-9.31618 22.478967-9.31618s16.269545 3.102664 22.479991 9.31618L683.306574 92.57788l241.198387 0c17.557888 0 31.795147 14.235213 31.795147 31.792077L956.300109 633.10254C956.300109 650.657358 942.061826 664.898711 924.504962 664.898711zM892.708791 156.169197l-222.569098 0c-8.428973 0-16.518209-3.354398-22.478967-9.31618l-136.498814-136.494721-136.498814 136.494721c-5.961782 5.961782-14.051017 9.31618-22.479991 9.31618l-222.569098 0L129.61401 601.304324l763.093758 0L892.707768 156.169197zM288.592814 378.735226m-63.591317 0a62.143 62.143 0 1 0 127.182634 0 62.143 62.143 0 1 0-127.182634 0ZM511.161912 378.735226m-63.591317 0a62.143 62.143 0 1 0 127.182634 0 62.143 62.143 0 1 0-127.182634 0ZM733.73101 378.735226m-63.591317 0a62.143 62.143 0 1 0 127.182634 0 62.143 62.143 0 1 0-127.182634 0Z' transform='translate(0, 812) scale(1, -1)'/></svg>");
+                      width: 15px;
+                      height: 15px;
+                      display: inline-block;
+                      background-repeat: no-repeat;
+                      background-position: center;
+                      vertical-align: middle;
+                      margin-right: 5px;
+                    }
+                }
+     }
+      
+    }
+   
+}
+
+// 商品排行
+#trending_brand{
+ // height: 30px;
+    background: #FF9710;
+    width: 100%;
+    position: relative;
+    padding: 8px 10px;
+    h5{
+        margin: 0;
+        padding: 0;
+        color: #fff;
+        font-size:16px;
+    }
+    a{
+        position: absolute;
+        right: 10px;
+        top: 5px;
+        img{
+            width: 20px;
+        }
+    }
+}
+// 页脚
+#footer{
+    height: 100px;
+    text-align: center;
+    .row{
+        >div{
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-left: 0px;
+            text-align: center;
+            &:last-child img{
+                width: 15px;
+                vertical-align: top;
+            }
+        }
+    }
+}
+
